@@ -25,12 +25,12 @@ Route::get('/contact', function () {
 
 Route::get('/about-us', function () {
     return view('about-us');
-});
+})->name('blog.about-us');
 
 Route::get('/archive-blog', function () {
     return view('archive-blog');
-});
+})->name('blog.archive-blog');
 
 Route::get('/single-post', function () {
     return view('single-post');
-});
+})->name('blog.single-post');

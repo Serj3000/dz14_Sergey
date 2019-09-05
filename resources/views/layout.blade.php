@@ -102,11 +102,11 @@
                                     <li><a href="{{route('blog.index')}}">Home</a></li> <!--index.html-->
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="archive-blog.html">Archive Blog</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="{{route('blog.index')}}">Home</a></li>
+                                            <li><a href="{{route('blog.archive-blog')}}">Archive Blog</a></li>
+                                            <li><a href="{{route('blog.single-post')}}">Single Post</a></li>
+                                            <li><a href="{{route('blog.about-us')}}">About</a></li>
+                                            <li><a href="{{route('blog.contact')}}">Contact</a></li>
                                             <li><a href="typography.html">Typography</a></li>
                                         </ul>
                                     </li>

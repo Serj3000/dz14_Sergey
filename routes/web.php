@@ -17,11 +17,11 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('blog.index');
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('blog.contact');
 
 Route::get('/about-us', function () {
     return view('about-us');

@@ -34,3 +34,13 @@ Route::get('/archive-blog', function () {
 Route::get('/single-post', function () {
     return view('single-post');
 })->name('blog.single-post');
+
+Route::get('/test', function () {
+    $result=factory(\App\User::class,50)->create();
+    dd($result);
+})->name('blog.test');
+
+Route::get('/category', function () {
+    $result=factory(\App\Category::class,10)->create();
+    dd($result);
+})->name('blog.category');

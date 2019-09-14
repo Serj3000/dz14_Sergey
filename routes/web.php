@@ -15,6 +15,12 @@
 //     return view('layout');
 // });
 
+// Route::get('/', function () {
+//     $post=Post::all();
+//     return view('index',['post'=>$post]);
+// })->name('blog.index');
+
+
 Route::get('/', function () {
     return view('index');
 })->name('blog.index');
